@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ }
+ 
+ 
+ #root{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ 
+ .header{
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   padding: 20px;
+   height: 150px;  
+ background-color: #4761E2;
+ color: white;
+ padding-left: 20px;  
+ }
+ 
+ input{
+ width: 350px;
+ border-radius: 25px;
+ 
+ }
+ button{
+ background-color: black;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin-left: 10px;
+ cursor: pointer;
+ }
+ i{
+ color: white;
+ }
+ 
+ .main{
+ width: 500px;
+ height: 400px;
+ padding: 18px;
+ background-color: blanchedalmond;
+ overflow: scroll;
+ 
+ 
+ }
+ 
+ .userList{
+ display: flex;
+ flex-direction: row; 
+ justify-content: space-evenly; 
+ margin-bottom: 5px;
+ height: 90px;
+ border-bottom: 1px solid black;
+   
+ }
+ 
+ .imageUser{
+   margin-top: 5px;
+  border: 1px solid black; 
+  height: 80px;
+ width: 80px;
+ border-radius: 50%;
+ }
+ 
+ .textUser{
+  width: 180px; 
+ }
+ img{
+ border-radius: 50%;  
+ }
+ 
+ .delUser{
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+ cursor: pointer;
+ }
+ 
